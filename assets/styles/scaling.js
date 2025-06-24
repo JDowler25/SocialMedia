@@ -1,12 +1,5 @@
 import { Dimensions, PixelRatio } from 'react-native';
-
-let DeviceInfo;
-try {
-  // Optional dependency. Tests might not have the native module available.
-  DeviceInfo = require('react-native-device-info');
-} catch (e) {
-  DeviceInfo = { isTablet: () => false };
-}
+import DeviceInfo from 'react-native-device-info';
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window');
 
