@@ -237,16 +237,18 @@ function App() {
           data={userPosts}
           showsVerticalScrollIndicator={false}
           renderItem={({ item }) => {
-            <UserPost
-              firstName={item.firstName}
-              lastName={item.lastName}
-              image={item.image}
-              likes={item.likes}
-              comments={item.comments}
-              bookmarks={item.bookmarks}
-              profileImage={item.profileImage}
-              location={item.location}
-            />;
+            return (
+              <UserPost
+                firstName={item.firstName}
+                lastName={item.lastName}
+                image={item.image}
+                likes={item.likes}
+                comments={item.comments}
+                bookmarks={item.bookmarks}
+                profileImage={item.profileImage}
+                location={item.location}
+              />
+            );
           }}
         />
       </View>

@@ -1,0 +1,2 @@
+C:\Users\Jaydan.Dowler\source\repos\SocialMedia\node_modules\react-native-svg\android\src\main\jni\CMakeLists.txt
+C:\Users\Jaydan.Dowler\source\repos\SocialMedia\node_modules\react-native\ReactAndroid\cmake-utils\default-app-setup\CMakeLists.txt

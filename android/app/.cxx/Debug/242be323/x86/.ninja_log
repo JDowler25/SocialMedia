@@ -1,0 +1,20 @@
+# ninja log v5
+2	59	0	C:/Users/Jaydan.Dowler/source/repos/SocialMedia/android/app/.cxx/Debug/242be323/x86/CMakeFiles/cmake.verify_globs	f38e759867ca1e26
+89	15855	7724838022360728	CMakeFiles/appmodules.dir/C_/Users/Jaydan.Dowler/source/repos/SocialMedia/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	c7ef7f478880d8a9
+52	9355	7724837957323703	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/9dc90c71ddfcca3e18c619f283568b6d/source/codegen/jni/react/renderer/components/rnsvg/EventEmitters.cpp.o	8104480276e2ac78
+72	2520	7724863953058225	build.ninja	f6fb22c4d2eb9bab
+105	10844	7724837972394597	CMakeFiles/appmodules.dir/OnLoad.cpp.o	520a9514e1ba9c8a
+15856	16150	7724838025738371	C:/Users/Jaydan.Dowler/source/repos/SocialMedia/android/app/build/intermediates/cxx/Debug/242be323/obj/x86/libappmodules.so	3c841985a844ad7b
+177	9648	7724837960596900	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/4429418abb172b8887442ea71af32b63/common/cpp/react/renderer/components/rnsvg/RNSVGImageState.cpp.o	db6955e0c92d750d
+75	8605	7724837949940106	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/a47d62ce1ec9ba678e62cd651a739c3d/generated/source/codegen/jni/react/renderer/components/rnsvg/States.cpp.o	4f1f4ad368dd0fa0
+63	9466	7724837958718265	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/ea773270949bfd3a4fec4ade81074d0b/codegen/jni/react/renderer/components/rnsvg/rnsvgJSI-generated.cpp.o	c7a76bff6bf3da4d
+131	10538	7724837969115790	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/db0985bf8147fb62188e2dda2f43fef7/cpp/react/renderer/components/rnsvg/RNSVGLayoutableShadowNode.cpp.o	2a95907f25c04148
+26	11211	7724837976174147	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/4429418abb172b8887442ea71af32b63/common/cpp/react/renderer/components/rnsvg/RNSVGShadowNodes.cpp.o	f26c77e6af64113a
+17	11223	7724837976194305	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/9dc90c71ddfcca3e18c619f283568b6d/source/codegen/jni/react/renderer/components/rnsvg/ShadowNodes.cpp.o	714e57f7dd8ffe5d
+152	12084	7724837984985006	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/4429418abb172b8887442ea71af32b63/common/cpp/react/renderer/components/rnsvg/RNSVGImageShadowNode.cpp.o	d35c374c0815d255
+35	12137	7724837985584779	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/rnsvg.cpp.o	2fae05666ba951e1
+9	12330	7724837987357685	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/a47d62ce1ec9ba678e62cd651a739c3d/generated/source/codegen/jni/react/renderer/components/rnsvg/Props.cpp.o	d8588ff9312e01e5
+43	12538	7724837989510197	rnsvg_autolinked_build/CMakeFiles/react_codegen_rnsvg.dir/ea773270949bfd3a4fec4ade81074d0b/codegen/jni/react/renderer/components/rnsvg/ComponentDescriptors.cpp.o	6d42082c235afcd2
+12539	12982	7724837994032915	C:/Users/Jaydan.Dowler/source/repos/SocialMedia/android/app/build/intermediates/cxx/Debug/242be323/obj/x86/libreact_codegen_rnsvg.so	1dfb1e0d6c0811a7
+3	74	0	C:/Users/Jaydan.Dowler/source/repos/SocialMedia/android/app/.cxx/Debug/242be323/x86/CMakeFiles/cmake.verify_globs	f38e759867ca1e26
+3	64	0	C:/Users/Jaydan.Dowler/source/repos/SocialMedia/android/app/.cxx/Debug/242be323/x86/CMakeFiles/cmake.verify_globs	f38e759867ca1e26
