@@ -25,7 +25,7 @@ const UserPost = props => {
               {props.firstName} {props.lastName}
             </Text>
             {props.location && (
-              <Text style={style.location}> {props.location}</Text>
+              <Text style={style.location}>{props.location}</Text>
             )}
           </View>
         </View>

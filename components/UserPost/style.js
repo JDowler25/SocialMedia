@@ -19,7 +19,6 @@ const style = StyleSheet.create({
   },
   location: {
     color: '#79869F',
-    marginLeft: -4, //This is not really needed I just missed a space on location text right before the location prop, that is why we needed marginLeft
     fontFamily: getFontFamily('Inter', '400'), //this font weight should have been a string
     fontSize: 12,
     marginTop: 5,
