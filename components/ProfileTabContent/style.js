@@ -12,8 +12,8 @@ const style = StyleSheet.create({
     flexWrap: 'wrap',
   },
   image: {
-    width: horizontalScale(150 * 1.1),
-    height: verticalScale(90 * 1.1),
+    width: horizontalScale(165),
+    height: verticalScale(105),
     marginTop: verticalScale(11),
   },
 });
