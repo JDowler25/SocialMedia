@@ -12,9 +12,10 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import style from './style';
 import UserStory from '../../components/UserStory/UserStory';
 import UserPost from '../../components/UserPost/UserPost';
-import { NavigationContainer } from '@react-navigation/native';
+import globalStyle from '../../assets/styles/globalStyle';
+import { Routes } from '../../navigation/Routes';
 
-function Home() {
+function Home({ navigation }) {
   const userStories = [
     {
       firstName: 'John',
@@ -198,14 +199,17 @@ function Home() {
   }, []);
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={globalStyle.backgroundWhite}>
       <View style={style.userPostContainer}>
         <FlatList
           ListHeaderComponent={
             <>
               <View style={style.header}>
                 <Title title={`Let's Explore`} />
-                <TouchableOpacity style={style.messageIcon}>
+                <TouchableOpacity
+                  style={style.messageIcon}
+                  onPress={() => navigation.navigate(Routes.Profile)}
+                >
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     size={20}
