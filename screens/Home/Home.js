@@ -15,157 +15,157 @@ import UserPost from '../../components/UserPost/UserPost';
 import globalStyle from '../../assets/styles/globalStyle';
 import { Routes } from '../../navigation/Routes';
 
+const userStories = [
+  {
+    firstName: 'John',
+    id: 1,
+    profileImage: require('../../assets/images/default_profile.png'),
+  },
+  {
+    firstName: 'Emily',
+    id: 2,
+    profileImage: require('../../assets/images/default_profile.png'),
+  },
+  {
+    firstName: 'Michael',
+    id: 3,
+    profileImage: require('../../assets/images/default_profile.png'),
+  },
+  {
+    firstName: 'Sophia',
+    id: 4,
+    profileImage: require('../../assets/images/default_profile.png'),
+  },
+  {
+    firstName: 'David',
+    id: 5,
+    profileImage: require('../../assets/images/default_profile.png'),
+  },
+  {
+    firstName: 'Olivia',
+    id: 6,
+    profileImage: require('../../assets/images/default_profile.png'),
+  },
+  {
+    firstName: 'Liam',
+    id: 7,
+    profileImage: require('../../assets/images/default_profile.png'),
+  },
+  {
+    firstName: 'Ava',
+    id: 8,
+    profileImage: require('../../assets/images/default_profile.png'),
+  },
+  {
+    firstName: 'Noah',
+    id: 9,
+    profileImage: require('../../assets/images/default_profile.png'),
+  },
+];
+
+const userPosts = [
+  {
+    firstName: 'John',
+    lastName: 'Doe',
+    location: 'New York, USA',
+    likes: 120,
+    comments: 45,
+    bookmarks: 30,
+    image: require('../../assets/images/default_post.png'),
+    profileImage: require('../../assets/images/default_profile.png'),
+    id: 1,
+  },
+  {
+    firstName: 'Emily',
+    lastName: 'Smith',
+    location: 'Los Angeles, USA',
+    likes: 98,
+    comments: 32,
+    bookmarks: 22,
+    image: require('../../assets/images/default_post.png'),
+    profileImage: require('../../assets/images/default_profile.png'),
+    id: 2,
+  },
+  {
+    firstName: 'Michael',
+    lastName: 'Johnson',
+    location: 'Chicago, USA',
+    likes: 150,
+    comments: 60,
+    bookmarks: 40,
+    image: require('../../assets/images/default_post.png'),
+    profileImage: require('../../assets/images/default_profile.png'),
+    id: 3,
+  },
+  {
+    firstName: 'Sophia',
+    lastName: 'Williams',
+    location: 'London, UK',
+    likes: 200,
+    comments: 80,
+    bookmarks: 55,
+    image: require('../../assets/images/default_post.png'),
+    profileImage: require('../../assets/images/default_profile.png'),
+    id: 4,
+  },
+  {
+    firstName: 'David',
+    lastName: 'Brown',
+    location: 'Toronto, Canada',
+    likes: 75,
+    comments: 20,
+    bookmarks: 10,
+    image: require('../../assets/images/default_post.png'),
+    profileImage: require('../../assets/images/default_profile.png'),
+    id: 5,
+  },
+  {
+    firstName: 'Olivia',
+    lastName: 'Jones',
+    location: 'Sydney, Australia',
+    likes: 180,
+    comments: 70,
+    bookmarks: 50,
+    image: require('../../assets/images/default_post.png'),
+    profileImage: require('../../assets/images/default_profile.png'),
+    id: 6,
+  },
+  {
+    firstName: 'Liam',
+    lastName: 'Garcia',
+    location: 'Madrid, Spain',
+    likes: 110,
+    comments: 38,
+    bookmarks: 25,
+    image: require('../../assets/images/default_post.png'),
+    profileImage: require('../../assets/images/default_profile.png'),
+    id: 7,
+  },
+  {
+    firstName: 'Ava',
+    lastName: 'Martinez',
+    location: 'Paris, France',
+    likes: 95,
+    comments: 27,
+    bookmarks: 18,
+    image: require('../../assets/images/default_post.png'),
+    profileImage: require('../../assets/images/default_profile.png'),
+    id: 8,
+  },
+  {
+    firstName: 'Noah',
+    lastName: 'Lee',
+    location: 'Berlin, Germany',
+    likes: 130,
+    comments: 50,
+    bookmarks: 35,
+    image: require('../../assets/images/default_post.png'),
+    profileImage: require('../../assets/images/default_profile.png'),
+    id: 9,
+  },
+];
+
 function Home({ navigation }) {
-  const userStories = [
-    {
-      firstName: 'John',
-      id: 1,
-      profileImage: require('../../assets/images/default_profile.png'),
-    },
-    {
-      firstName: 'Emily',
-      id: 2,
-      profileImage: require('../../assets/images/default_profile.png'),
-    },
-    {
-      firstName: 'Michael',
-      id: 3,
-      profileImage: require('../../assets/images/default_profile.png'),
-    },
-    {
-      firstName: 'Sophia',
-      id: 4,
-      profileImage: require('../../assets/images/default_profile.png'),
-    },
-    {
-      firstName: 'David',
-      id: 5,
-      profileImage: require('../../assets/images/default_profile.png'),
-    },
-    {
-      firstName: 'Olivia',
-      id: 6,
-      profileImage: require('../../assets/images/default_profile.png'),
-    },
-    {
-      firstName: 'Liam',
-      id: 7,
-      profileImage: require('../../assets/images/default_profile.png'),
-    },
-    {
-      firstName: 'Ava',
-      id: 8,
-      profileImage: require('../../assets/images/default_profile.png'),
-    },
-    {
-      firstName: 'Noah',
-      id: 9,
-      profileImage: require('../../assets/images/default_profile.png'),
-    },
-  ];
-
-  const userPosts = [
-    {
-      firstName: 'John',
-      lastName: 'Doe',
-      location: 'New York, USA',
-      likes: 120,
-      comments: 45,
-      bookmarks: 30,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
-      id: 1,
-    },
-    {
-      firstName: 'Emily',
-      lastName: 'Smith',
-      location: 'Los Angeles, USA',
-      likes: 98,
-      comments: 32,
-      bookmarks: 22,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
-      id: 2,
-    },
-    {
-      firstName: 'Michael',
-      lastName: 'Johnson',
-      location: 'Chicago, USA',
-      likes: 150,
-      comments: 60,
-      bookmarks: 40,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
-      id: 3,
-    },
-    {
-      firstName: 'Sophia',
-      lastName: 'Williams',
-      location: 'London, UK',
-      likes: 200,
-      comments: 80,
-      bookmarks: 55,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
-      id: 4,
-    },
-    {
-      firstName: 'David',
-      lastName: 'Brown',
-      location: 'Toronto, Canada',
-      likes: 75,
-      comments: 20,
-      bookmarks: 10,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
-      id: 5,
-    },
-    {
-      firstName: 'Olivia',
-      lastName: 'Jones',
-      location: 'Sydney, Australia',
-      likes: 180,
-      comments: 70,
-      bookmarks: 50,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
-      id: 6,
-    },
-    {
-      firstName: 'Liam',
-      lastName: 'Garcia',
-      location: 'Madrid, Spain',
-      likes: 110,
-      comments: 38,
-      bookmarks: 25,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
-      id: 7,
-    },
-    {
-      firstName: 'Ava',
-      lastName: 'Martinez',
-      location: 'Paris, France',
-      likes: 95,
-      comments: 27,
-      bookmarks: 18,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
-      id: 8,
-    },
-    {
-      firstName: 'Noah',
-      lastName: 'Lee',
-      location: 'Berlin, Germany',
-      likes: 130,
-      comments: 50,
-      bookmarks: 35,
-      image: require('../../assets/images/default_post.png'),
-      profileImage: require('../../assets/images/default_profile.png'),
-      id: 9,
-    },
-  ];
-
   const userStoriesPageSize = 4;
   const [userStoriesCurrentPage, setUserStoriesCurrentPage] = useState(1);
   const [userStoriesRenderedData, setUserStoriesRenderedData] = useState([]);
@@ -206,10 +206,7 @@ function Home({ navigation }) {
             <>
               <View style={style.header}>
                 <Title title={`Let's Explore`} />
-                <TouchableOpacity
-                  style={style.messageIcon}
-                  onPress={() => navigation.navigate(Routes.Profile)}
-                >
+                <TouchableOpacity style={style.messageIcon}>
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     size={20}

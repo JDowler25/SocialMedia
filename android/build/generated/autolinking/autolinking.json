@@ -55,6 +55,33 @@
         }
       }
     },
+    "react-native-pager-view": {
+      "root": "C:\\Users\\Jaydan.Dowler\\source\\repos\\SocialMedia\\node_modules\\react-native-pager-view",
+      "name": "react-native-pager-view",
+      "platforms": {
+        "ios": {
+          "podspecPath": "C:\\Users\\Jaydan.Dowler\\source\\repos\\SocialMedia\\node_modules\\react-native-pager-view\\react-native-pager-view.podspec",
+          "version": "6.8.1",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "C:\\Users\\Jaydan.Dowler\\source\\repos\\SocialMedia\\node_modules\\react-native-pager-view\\android",
+          "packageImportPath": "import com.reactnativepagerview.PagerViewPackage;",
+          "packageInstance": "new PagerViewPackage()",
+          "buildTypes": [],
+          "libraryName": "pagerview",
+          "componentDescriptors": [
+            "RNCViewPagerComponentDescriptor"
+          ],
+          "cmakeListsPath": "C:/Users/Jaydan.Dowler/source/repos/SocialMedia/node_modules/react-native-pager-view/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
     "react-native-reanimated": {
       "root": "C:\\Users\\Jaydan.Dowler\\source\\repos\\SocialMedia\\node_modules\\react-native-reanimated",
       "name": "react-native-reanimated",
